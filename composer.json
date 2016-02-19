@@ -1,5 +1,5 @@
 {
-    "name": "unitoneict/LaraParse",
+    "name": "unitoneict/lara-parse",
     "description": "ِA Laravel implementation for Parse Server",
     "keywords": [
         "parse", "server", "laravel", "baas", "mbaas"
