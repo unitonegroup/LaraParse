@@ -1,6 +1,6 @@
 <?php
 
-namespace LaraParse;
+namespace UnitOneICT\LaraParse;
 
 use Carbon\Carbon;
 use Illuminate\Support\Collection;
@@ -228,7 +228,7 @@ class ParseHelper
     {
         // todo this function must be overidable to remove the dependency with the SN
         $paths = array();
-        $paths[] = 'App\\ParseModel\\';
+        $paths[] = 'App\\';
         return $paths;
     }
 

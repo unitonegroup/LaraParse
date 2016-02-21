@@ -1,6 +1,6 @@
 <?php
 
-namespace LaraParse;
+namespace UnitOneICT\LaraParse;
 
 use Carbon\Carbon;
 

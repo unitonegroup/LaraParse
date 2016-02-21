@@ -7,12 +7,13 @@
 Route::group(['prefix' => '/1/'], function () {
 
     Route::group(['prefix' => 'classes/'], function () {
-        Route::post('{className}', 'Parse\ParseObjectController@create');
-        Route::get('{className}/{objectId}', 'Parse\ParseObjectController@getById');
-        Route::put('{className}/{objectId}', 'Parse\ParseObjectController@update');
-        Route::get('{className}', 'Parse\ParseObjectController@get');
-        Route::delete('{className}/{objectId}', 'Parse\ParseObjectController@delete');
+        Route::post('{className}', 'UnitOneICT\LaraParse\ParseObjectController@create');
+        Route::get('{className}/{objectId}', 'UnitOneICT\LaraParse\ParseObjectController@getById');
+        Route::put('{className}/{objectId}', 'UnitOneICT\LaraParse\ParseObjectController@update');
+        Route::get('{className}', 'UnitOneICT\LaraParse\ParseObjectController@get');
+        Route::delete('{className}/{objectId}', 'UnitOneICT\LaraParse\ParseObjectController@delete');
     });
-    Route::post('batch', 'Parse\ParseObjectController@batch');
+
+    Route::post('batch', 'UnitOneICT\LaraParse\ParseObjectController@batch');
 
 });

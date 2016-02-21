@@ -24,7 +24,7 @@
         "source": "https://github.com/unitoneict/LaraParse"
     },
     "autoload": {
-        "psr-4": { "LaraParse\\": "src/" }
+        "psr-4": { "UnitOneICT\\LaraParse\\": "src" }
     },
     "autoload-dev": {
         "classmap": [ "tests" ]
