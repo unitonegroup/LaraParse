@@ -7,3 +7,15 @@ You can install the package via composer
 ```
 composer require unitoneict/lara-parse
 ```
+
+Then you need to add `LaraParseServiceProvider` to your `config/app.php` provider
+
+```php
+  'providers' => [
+        /*
+         * Application Service Providers...
+         */
+        ...
+        UnitOneICT\LaraParse\LaraParseServiceProvider::class
+    ],
+```
